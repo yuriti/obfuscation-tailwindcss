@@ -1,0 +1,26 @@
+{
+  "name": "obfuscation-tailwind",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Obfuscating tailwind with jit support",
+  "author": "yuriti",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "setup.js"
+  ],
+  "devDependencies": {
+    "incstr": "^1.2.3"
+  },
+  "dependencies": {},
+  "scripts": {},
+  "bugs": "https://github.com/yuriti/obfuscation-tailwind/issues",
+  "homepage": "https://github.com/yuriti/obfuscation-tailwind",
+  "repository": "https://github.com/yuriti/obfuscation-tailwind.git",
+  "keywords": [
+    "tailwind",
+    "css",
+    "obfuscation",
+    "webpack"
+  ]
+}
