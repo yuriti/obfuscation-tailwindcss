@@ -9,7 +9,9 @@ module.exports = callback => {
 
   class ObfuscationTailwind {
     constructor(opts = {}) {
-      this.opts = opts;
+      this.opts = Object.assign({}, {
+        startsWithout: []
+      }, opts);
     }
 
     apply(compiler) {
