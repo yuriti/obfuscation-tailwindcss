@@ -1,6 +1,6 @@
 const incstr = require('incstr');
 const {ReplaceSource} = require('webpack-sources');
-const regex = '(([a-zA-Z-:]*)[\\\\\\\\]*:)*([\\\\\\\\]*!)?tw-[a-zA-Z-]([a-zA-Z0-9-]*([\\\\\\\\]*(\\%|\\#|\\.|\\[|\\]))*)*';
+const regex = '(([a-zA-Z-:]*)[\\\\\\\\]*:)*([\\\\\\\\]*!)?tw-[a-zA-Z-]([a-zA-Z0-9-]*([\\\\\\\\]*(\\/|\\%|\\#|\\.|\\[|\\]))*)*';
 
 const cache = {};
 const generateClassName = incstr.idGenerator({alphabet: 'abcdefghijklmnopqrstuvwxyz'});
