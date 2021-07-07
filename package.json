@@ -1,0 +1,29 @@
+{
+  "name": "obfuscation-tailwindcss",
+  "version": "0.0.4",
+  "license": "MIT",
+  "description": "Webpack obfuscating tailwind with jit support",
+  "author": "yuriti",
+  "main": "index.js",
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "devDependencies": {
+    "incstr": "^1.2.3",
+    "jest": "^27.0.6",
+    "webpack": "^5.43.0"
+  },
+  "dependencies": {},
+  "scripts": {},
+  "bugs": "https://github.com/yuriti/obfuscation-tailwindcss/issues",
+  "homepage": "https://github.com/yuriti/obfuscation-tailwindcss",
+  "repository": "https://github.com/yuriti/obfuscation-tailwindcss.git",
+  "keywords": [
+    "tailwind",
+    "tailwind-jit",
+    "css",
+    "obfuscation",
+    "webpack"
+  ]
+}
