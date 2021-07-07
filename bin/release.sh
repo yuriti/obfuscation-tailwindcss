@@ -3,4 +3,7 @@
 cd "${0%/*}"
 cd ..
 
-release-it
+# .env variables
+set -o allexport; source .env; set +o allexport
+
+GITHUB_TOKEN=$GITHUB_TOKEN release-it
