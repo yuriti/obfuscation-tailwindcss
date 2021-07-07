@@ -1,6 +1,6 @@
 {
   "name": "obfuscation-tailwindcss",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "license": "MIT",
   "description": "Webpack obfuscating tailwind with jit support",
   "author": "yuriti",
