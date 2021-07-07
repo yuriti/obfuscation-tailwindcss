@@ -1,0 +1,1 @@
+const a = '<div class="tw-spin">tw-spin</div>';

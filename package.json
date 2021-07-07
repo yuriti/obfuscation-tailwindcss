@@ -10,12 +10,17 @@
     "index.js"
   ],
   "devDependencies": {
+    "css-loader": "^5.2.6",
+    "html-loader": "^2.1.2",
     "incstr": "^1.2.3",
     "jest": "^27.0.6",
+    "style-loader": "^3.0.0",
     "webpack": "^5.43.0"
   },
   "dependencies": {},
-  "scripts": {},
+  "scripts": {
+    "test": "jest"
+  },
   "bugs": "https://github.com/yuriti/obfuscation-tailwindcss/issues",
   "homepage": "https://github.com/yuriti/obfuscation-tailwindcss",
   "repository": "https://github.com/yuriti/obfuscation-tailwindcss.git",
